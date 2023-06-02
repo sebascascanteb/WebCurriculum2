@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    background-image: linear-gradient(135deg
+    ,#666666,#8c8c8c,#52b1ff,#86cafa,
+    #d3cec9,#9fa3a9, #6a6e73);
+    background-size: 500%;
+    animation: fanimado 30s infinite;
+    font-family: 'Heebo', sans-serif;
+    color: #3f3f3f;
+}
+
+div{
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(255, 255, 255, 0.2); /* R, G, B, Alpha */
+    box-sizing: content-box;
+}
+
+ul{
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(255, 255, 255, 0.2); /* R, G, B, Alpha */
+    box-sizing: content-box;
+}
+
+ol{
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(255, 255, 255, 0.2); /* R, G, B, Alpha */
+    box-sizing: content-box;
+}
+
+.divFondoPrincipal {
+    border-style: solid;
+    border-width: 1px; /* Ajusta el grosor del borde según tus necesidades */
+    background-color: rgba(255, 255, 255, 0.2); /* R, G, B, Alpha */
+    margin-right: 8%;
+    margin-left: 8%;
+    box-sizing: content-box;
+
+}
+  
+
+header{
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(255, 255, 255, 0.2); /* R, G, B, Alpha */
+    box-sizing: content-box;
+
+}
+
+
+nav{
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(255, 255, 255, 0.2); /* R, G, B, Alpha */
+    box-sizing: content-box;
+}
+
+
+.imgR {
+    float: left;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 4%;
+    border-radius: 10px;
+    box-sizing: content-box;
+
+}
+
+.imgL {
+    float: right;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 4%;
+    border-radius: 10px;
+    box-sizing: content-box;
+
+}
+
+main{
+    border-width: 1px;
+    margin-bottom: 2%;
+    box-sizing: content-box;
+
+}
+
+.divflexC{
+    
+    display: flex; flex-direction: column;
+    box-sizing: content-box;
+
+}
+
+.divflex{
+    display: flex;
+    box-sizing: content-box;
+
+}
+
+.asideflex1{
+    
+    flex: 1;
+    box-sizing: content-box;
+
+}
+
+.mainflex2{
+    
+    flex: 2;
+    box-sizing: content-box;
+
+}
+
+.sectionImg{display: flex;
+    justify-content: center;
+    width: 80%; 
+    height: auto;
+    margin: auto;
+    box-sizing: content-box;
+
+}
+
+li{
+    margin-left: 5%;
+    box-sizing: content-box;
+
+}
+
+table{
+    border: 2;
+    align-self: center;
+    margin-top: 1%;
+    box-sizing: content-box;
+}
+
+#tdLink{
+    text-align: center;
+}
+
+footer{
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(255, 255, 255, 0.2); /* R, G, B, Alpha */
+    box-sizing: content-box;
+}
+
+#Hobbies{
+    margin-left: 8%; margin-right: 8%;
+    box-sizing: content-box;
+
+}
+
+#Institucion{
+    margin-left: 8%; margin-right: 8%;
+    box-sizing: content-box;
+
+}
+
+#divFooter{
+    display: flex; justify-content: center;
+    box-sizing: content-box;
+
+}
+
+@keyframes fanimado {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+
+}
+
+
+
